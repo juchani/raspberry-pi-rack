@@ -4,6 +4,6 @@ led= LED(12)
 
 while 1:
     led.off()
-    t(2)
+    t(1)
     led.on()
-    t(2)
+    t(1)
