@@ -2,7 +2,7 @@ from gpiozero import LED, PingServer
 from gpiozero.tools import negated
 from signal import pause
 
-green = LED(5)
+green = LED(4)
 red = LED(6)
 
 google = PingServer('google.com')
